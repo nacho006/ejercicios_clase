@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3.1.</title>
+</head>
+<body>
+    <script>
+    
+
+        var num_multiplicar;
+      
+        var salida_tabla_multiplicar = "";
+
+       
+        
+        num_multiplicar = parseInt(prompt("Dime un número:"));
+        texto = "";
+
+        for(var i=0; i<=10; i++){
+          
+            res = i * num_multiplicar;
+
+            texto = i + " x " + num_multiplicar + " = " + res + "<br>";
+            salida_tabla_multiplicar += texto;
+     
+        }
+
+        document.write(salida_tabla_multiplicar);
+
+    </script>
+</body>
+</html>
